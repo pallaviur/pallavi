@@ -10,6 +10,6 @@ jobs:
       - name: check user permission
         uses: 74th/workflow-permission-action@1.0.0
         with:
-          users: akshitchauhan1, pallaviur
+          users: akshitchauhan1
       - name: deploy
         run: echo "deployed"
